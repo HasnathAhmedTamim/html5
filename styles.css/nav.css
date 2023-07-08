@@ -4,7 +4,8 @@ nav > ul{
 nav li{
     list-style: none;
     margin-right: 10px;
-    padding: 10px;
+    padding: 24px;
+    border: crimson solid 1px;
 }
 nav li a{
     text-decoration: none;
@@ -12,4 +13,14 @@ nav li a{
 }
 nav li:hover{
     background-color: cornsilk;
+}
+    /* nested nav */
+nav li .dropdown{
+    display: none;
+    position: absolute;
+    background-color: lavender;
+    padding-left: 10px;
+}
+nav li:hover >.dropdown{
+    display: block;
 }
