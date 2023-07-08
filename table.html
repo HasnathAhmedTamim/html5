@@ -1,70 +1,82 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Making Html Table</title>
     <style>
-        td,th{
-            border: solid 2px;
-            padding: 4px;
+      td,
+      th {
+        border: solid 2px;
+        padding: 4px;
+      }
+      table {
+        border-collapse: collapse;
+      }
 
-        }
-        table{
-            border-collapse: collapse;
-        }
+
     </style>
-</head>
-<body>
-    <h1>YoYoBoys HTML Table</h1>
-    <table>
-        <caption>YoYo Members</caption>
+    <link rel="stylesheet" href="styles.css/nav.css">
+  </head>
+  <body>
+    <header>
+        <nav>
+            <ul><li><a href="index.html">Video</a></li>
+            <li><a href="form.html">Form</a></li>
+            <li><a href="blog.html">Blog</a></li>
+            <li><a href="table.html">Table</a></li></ul>
+        </nav>
+    </header>
+    <main>
+      <h1>YoYoBoys HTML Table</h1>
+      <table>
+        <caption>
+          YoYo Members
+        </caption>
         <thead>
-            <tr>
-                <th>No</th>
-                <th>Name</th>
-                <th>Company</th>
-                <th>Salary</th>
-                
-            </tr>
+          <tr>
+            <th>No</th>
+            <th>Name</th>
+            <th>Company</th>
+            <th>Salary</th>
+          </tr>
         </thead>
         <tbody>
-            <!-- td*4 dile 4ta kore dibe -->
-        <tr>
+          <!-- td*4 dile 4ta kore dibe -->
+          <tr>
             <td>1.</td>
             <td>Hasnath</td>
             <td>Microsoft</td>
             <td>101m$</td>
-        </tr>
-        
-        <tr>
+          </tr>
+
+          <tr>
             <td>2.</td>
             <td>Monim</td>
             <td>HP</td>
             <td>102m$</td>
-        </tr>
-        <tr>
+          </tr>
+          <tr>
             <td>3.</td>
             <td>Md.Tamim</td>
             <td>Dell</td>
             <td>103m$</td>
-        </tr>
-        <tr>
+          </tr>
+          <tr>
             <td>4.</td>
             <td>Limon</td>
             <td>Plato</td>
             <td>104m$</td>
-        </tr>
-        
-    </tbody>
+          </tr>
+        </tbody>
         <tfoot>
-            <tr>
-                <td colspan="4">Total Employee : 4</td>
-            </tr>
+          <tr>
+            <td colspan="4">Total Employee : 4</td>
+          </tr>
         </tfoot>
-    </table>
+      </table>
 
-    <ul>
+      <ul>
         <li>Table:table</li>
         <li>table head:thead</li>
         <li>table body: tbody</li>
@@ -72,7 +84,8 @@
         <li>table row: tr</li>
         <li>table data/cell: td</li>
         <li>table cell: th</li>
-        <li>table caption: caption</li>
-    </ul>
-</body>
+        <li>table caption caption</li>
+      </ul>
+    </main>
+  </body>
 </html>
